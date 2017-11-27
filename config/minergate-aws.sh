@@ -1,7 +1,6 @@
 #!/bin/bash
-#apt-get update
 
-MAIL="mail"
+export MAIL="###MAIL###"
 
 export LOG_MG="/var/log/xmrig"
 export LOG_MG_INSTALL="${LOG_XMRIG}_install"
