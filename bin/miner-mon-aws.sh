@@ -1,7 +1,7 @@
 #!/bin/bash
 
-APP_TOKEN=""
-USER_TOKEN=""
+APP_TOKEN="###APP_TOKEN###"
+USER_TOKEN="###USER_TOKEN###"
 MESSAGE=$(hostname)
 
 FILE_TO_MONITOR="/var/log/xmrig"
