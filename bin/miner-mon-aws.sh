@@ -17,5 +17,8 @@ function send_pushover_message()
 
 FOUND_FILE=$(/usr/bin/find /var/log -name xmrig -mmin 5)
 
-foreach file in ${FOUND_FILE}; do send_pushover_message; done
+while 1;
+do
+    foreach file in ${FOUND_FILE}; do send_pushover_message; done
+done
 
