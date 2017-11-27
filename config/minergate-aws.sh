@@ -2,7 +2,7 @@
 
 export MAIL="###MAIL###"
 
-export LOG_MG="/var/log/xmrig"
+export LOG_MG="/var/log/minergate"
 export LOG_MG_INSTALL="${LOG_XMRIG}_install"
 
 echo > ${LOG_MG}
